@@ -2,9 +2,15 @@ import styled from '@emotion/styled';
 
 export const ProfileCard = styled.div`
    padding:30px;
-   margin: auto;
    background: ${p=>p.theme.colors.background};
-   color: ${p=>p.theme.colors.text};
+   color: ${p => p.theme.colors.text};
+  width: 530px;
+  margin: 15px auto;
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
+    1px 4px 6px rgb(0 0 0 / 16%);
+  overflow: hidden;
+  
 `;
 
 export const Description = styled.div`
@@ -32,7 +38,8 @@ export const Location = styled.p`
 
 export const Stats = styled.ul`
 display:flex;
-
+ justify-content: center;
+    
 
 `;
 
