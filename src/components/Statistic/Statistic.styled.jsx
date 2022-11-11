@@ -39,3 +39,4 @@ export const Label = styled.span`
 display:flex;
 
 `;
+export const Percantage = styled.span``;
